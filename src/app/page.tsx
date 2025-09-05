@@ -8,7 +8,7 @@ export default function Home() {
     <ThemeProvider>
        <div className="min-h-screen bg-background flex flex-col">
            <Header /> 
-        <main className="flex-1 container mx-auto px-4 py-6 max-w-4xl">
+        <main className="flex-1 container mx-auto px-4 py-6 pt-24 max-w-4xl">
           <ChatInterface />
         </main>
       </div>
