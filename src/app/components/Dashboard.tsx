@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { ChatSidebar } from "./ChatSidebar";
 import { ChatWindow } from "./ChatWindow";
 import { RepoInput } from "./RepoInput";
-import { projectId, publicAnonKey } from "../utils/supabase/info";
+import { projectId, publicAnonKey } from "../../utils/supabase/info";
 
 interface DashboardProps {
   supabase: any;

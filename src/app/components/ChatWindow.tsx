@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 import { Textarea } from "./ui/textarea";
 import { ScrollArea } from "./ui/scroll-area";
 import { MessageContent } from "./MessageContent";
-import { projectId } from "../utils/supabase/info";
+import { projectId } from "../../utils/supabase/info";
 
 interface ChatWindowProps {
   chatId: string;

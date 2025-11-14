@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Card } from "./ui/card";
 import { Progress } from "./ui/progress";
-import { projectId, publicAnonKey } from "../utils/supabase/info";
+import { projectId, publicAnonKey } from "../../utils/supabase/info";
 
 interface RepoInputProps {
   repos: any[];

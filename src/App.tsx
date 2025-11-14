@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { createClient } from "@supabase/supabase-js";
-import { AuthPage } from "./components/AuthPage";
-import { Dashboard } from "./components/Dashboard";
+import { AuthPage } from "./app/components/AuthPage";
+import { Dashboard } from "./app/components/Dashboard";
 import { projectId, publicAnonKey } from "./utils/supabase/info";
 
 const supabase = createClient(
